@@ -34,11 +34,16 @@ class HomeController extends Controller
 
     public function index()
     {
-      
+        if(Auth::id())
+        {
+            return redirect('redirect');
+        }
+        else
+        {
             $data =product::paginate(3);
             return view('User.home',compact('data'));
         
-        
+        }
     }
 
     public function search(Request $request)
