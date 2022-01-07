@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+ 
   <head>
 
     <meta charset="utf-8">
@@ -24,12 +25,11 @@ https://templatemo.com/tm-546-sixteen-clothing
 -->
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="./assets/css/fontawesome.css">
-    <link rel="stylesheet" href="./assets/css/templatemo-sixteen.css">
-    <link rel="stylesheet" href="./assets/css/owl.css">
+    <link rel="stylesheet" href="../assets/css/fontawesome.css">
+    <link rel="stylesheet" href="../assets/css/templatemo-sixteen.css">
+    <link rel="stylesheet" href="../assets/css/owl.css">
 
   </head>
-
   <body>
 
     <!-- ***** Preloader Start ***** -->
