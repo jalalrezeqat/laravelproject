@@ -1,1 +1,1 @@
-web: vendpr/bin/heroku-php-abache2 public
+web: vendpr/bin/heroku-php-abache2 public/
