@@ -28,7 +28,7 @@ class HomeController extends Controller
             $data =product::paginate(3);
             $user=auth()->user();
             $count=cart::where('phone',$user->phone)->count();
-            return view('user.home',compact('data','count'));
+            return view('User.home',compact('data','count'));
         }
     }
 
@@ -41,7 +41,7 @@ class HomeController extends Controller
         else
         {
             $data =product::paginate(3);
-            return view('user.home',compact('data'));
+            return view('User.home',compact('data'));
         }
         
     }
@@ -52,7 +52,7 @@ class HomeController extends Controller
         if($search=='')
         {
             $data =product::paginate(3);
-            return view('user.home',compact('data')); 
+            return view('User.home',compact('data')); 
         }
         
         $data=product::where('titel','Like','%'.$search.'%')->get();
@@ -88,7 +88,7 @@ class HomeController extends Controller
         $user=auth()->user();
         $data=cart::where('phone',$user->phone)->get();
         $count=cart::where('phone',$user->phone)->count();
-        return view('user.showcart',compact('count','data'));
+        return view('User.showcart',compact('count','data'));
     }
 
     public function deletecart($id)
