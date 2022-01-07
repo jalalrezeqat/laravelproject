@@ -2,3 +2,4 @@
 RewriteEngine on
 RewritecOND %{REQUEST_URL} !^public
 RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
