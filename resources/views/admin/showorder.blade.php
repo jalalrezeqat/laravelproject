@@ -50,7 +50,7 @@
                   <td>{{$orders->name }}</td>
                   <td>{{$orders->phone }}</td>
                   <td>{{$orders->address }}</td>
-                  <td>{{$orders->product_titel }}</td>
+                  <td>{{$orders->product_name }}</td>
                   <td>{{$orders->quantity }}</td>
                   <td>{{$orders->price }}</td>
                   <td>{{$orders->status }}</td>

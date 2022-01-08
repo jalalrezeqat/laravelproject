@@ -1,7 +1,7 @@
 <style>
   img
   {
-    height:300px; width:100px;
+    height:400px; width:150px;
   }
   .x
   {

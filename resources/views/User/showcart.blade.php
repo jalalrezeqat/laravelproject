@@ -122,6 +122,7 @@ https://templatemo.com/tm-546-sixteen-clothing
             <tbody>
     <form action="{{ url('order') }}" method="POST">
         @csrf
+        <button style="margin: 10px" class="btn btn-success">Confirm Order</button>
                 @foreach ($data as $cart )
             <tr>
                 <td>
@@ -136,6 +137,7 @@ https://templatemo.com/tm-546-sixteen-clothing
                     <input type="text" name="price[]" value="{{$cart->price }}" hidden>
                     {{$cart->price }}
                 </td>
+              </form>
                 <td><a href="{{url('deletecart',$cart->id)}}">
                     <button id="submit" name="submit" class="btn btn-danger">Delete</button>
                 </a>
@@ -144,8 +146,8 @@ https://templatemo.com/tm-546-sixteen-clothing
             @endforeach
             </tbody>
         </table>
-        <button class="btn btn-success">Confirm Order</button>
-    </form>
+       
+    
     </div>
 
     <!-- Bootstrap core JavaScript -->
