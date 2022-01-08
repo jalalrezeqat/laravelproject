@@ -42,8 +42,8 @@ class HomeController extends Controller
         {
             $data =product::paginate(3);
             return view('User.home',compact('data'));
-        }
         
+        }
     }
 
     public function search(Request $request)

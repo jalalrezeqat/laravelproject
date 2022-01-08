@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+ 
   <head>
 
     <meta charset="utf-8">
@@ -28,18 +29,18 @@ https://templatemo.com/tm-546-sixteen-clothing
     <link rel="stylesheet" href="../assets/css/templatemo-sixteen.css">
     <link rel="stylesheet" href="../assets/css/owl.css">
 
-  </head>
 
+  </head>
   <body>
 
     <!-- ***** Preloader Start ***** -->
-    <div id="preloader">
+     <div id="preloader">
         <div class="jumper">
             <div></div>
             <div></div>
             <div></div>
         </div>
-    </div>  
+    </div>
     <!-- ***** Preloader End ***** -->
 
     <!-- Header -->
