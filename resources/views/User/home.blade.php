@@ -33,13 +33,13 @@ https://templatemo.com/tm-546-sixteen-clothing
   <body>
 
     <!-- ***** Preloader Start ***** -->
-     <div id="preloader">
-        <div class="jumper">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
+    // <div id="preloader">
+       // <div class="jumper">
+         //   <div></div>
+         //   <div></div>
+         //   <div></div>
+     //   </div>
+ //   </div>
     <!-- ***** Preloader End ***** -->
 
     <!-- Header -->
